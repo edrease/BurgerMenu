@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E07A6751BCC4E0900D51406 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E07A6741BCC4E0900D51406 /* Question.m */; settings = {ASSET_TAGS = (); }; };
+		9E07A6781BCC4ED600D51406 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E07A6771BCC4ED600D51406 /* User.m */; settings = {ASSET_TAGS = (); }; };
+		9E07A67B1BCC617900D51406 /* MyQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E07A67A1BCC617900D51406 /* MyQuestionsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9E07A67E1BCC6C1600D51406 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E07A67D1BCC6C1600D51406 /* QuestionTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		9E07A6811BCC79F200D51406 /* QuestionJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E07A6801BCC79F200D51406 /* QuestionJSONParser.m */; settings = {ASSET_TAGS = (); }; };
+		9E07A6841BCD8B9600D51406 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E07A6831BCD8B9600D51406 /* MyProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9E15DEDF1BA9DB39004CA991 /* Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15DEDE1BA9DB39004CA991 /* Errors.m */; };
+		9E6EBA071BAB1993002E940B /* StackOverFlowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6EBA061BAB1993002E940B /* StackOverFlowService.m */; };
+		9E8146981BA8821A00D82B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8146971BA8821A00D82B8A /* main.m */; };
+		9E81469B1BA8821A00D82B8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E81469A1BA8821A00D82B8A /* AppDelegate.m */; };
+		9E81469E1BA8821A00D82B8A /* BurgerMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E81469C1BA8821A00D82B8A /* BurgerMenu.xcdatamodeld */; };
+		9E8146A11BA8821A00D82B8A /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8146A01BA8821A00D82B8A /* ContainerViewController.m */; };
+		9E8146A41BA8821A00D82B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8146A21BA8821A00D82B8A /* Main.storyboard */; };
+		9E8146A61BA8821A00D82B8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8146A51BA8821A00D82B8A /* Images.xcassets */; };
+		9E8146A91BA8821A00D82B8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8146A71BA8821A00D82B8A /* LaunchScreen.xib */; };
+		9E8146B51BA8821A00D82B8A /* BurgerMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8146B41BA8821A00D82B8A /* BurgerMenuTests.m */; };
+		9E8146C61BA887C800D82B8A /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8146C51BA887C800D82B8A /* MainMenuTableViewController.m */; };
+		9E8146C91BA887F500D82B8A /* QuestionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8146C81BA887F500D82B8A /* QuestionSearchViewController.m */; };
+		9E8146CB1BA8A4AA00D82B8A /* burger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9E8146CA1BA8A4AA00D82B8A /* burger.jpeg */; };
+		9E8146CE1BA8F32A00D82B8A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8146CD1BA8F32A00D82B8A /* WebViewController.m */; };
+		F438ED71896C77917D324B0B /* libPods-BurgerMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210F4D044961435467FA025C /* libPods-BurgerMenu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E8146AF1BA8821A00D82B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E81468A1BA8821900D82B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8146911BA8821A00D82B8A;
+			remoteInfo = BurgerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05165D89DDFF1FB80AE954BB /* Pods-BurgerMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerMenu/Pods-BurgerMenu.release.xcconfig"; sourceTree = "<group>"; };
+		210F4D044961435467FA025C /* libPods-BurgerMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A322A5A2A2EC89845AFA12 /* Pods-BurgerMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerMenu/Pods-BurgerMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		9E07A6731BCC4E0900D51406 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		9E07A6741BCC4E0900D51406 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		9E07A6761BCC4ED600D51406 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9E07A6771BCC4ED600D51406 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9E07A6791BCC617900D51406 /* MyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuestionsViewController.h; sourceTree = "<group>"; };
+		9E07A67A1BCC617900D51406 /* MyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuestionsViewController.m; sourceTree = "<group>"; };
+		9E07A67C1BCC6C1600D51406 /* QuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableViewCell.h; sourceTree = "<group>"; };
+		9E07A67D1BCC6C1600D51406 /* QuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewCell.m; sourceTree = "<group>"; };
+		9E07A67F1BCC79F200D51406 /* QuestionJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionJSONParser.h; sourceTree = "<group>"; };
+		9E07A6801BCC79F200D51406 /* QuestionJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionJSONParser.m; sourceTree = "<group>"; };
+		9E07A6821BCD8B9600D51406 /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		9E07A6831BCD8B9600D51406 /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		9E15DEDD1BA9DB39004CA991 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Errors.h; sourceTree = "<group>"; };
+		9E15DEDE1BA9DB39004CA991 /* Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Errors.m; sourceTree = "<group>"; };
+		9E6EBA051BAB1993002E940B /* StackOverFlowService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackOverFlowService.h; sourceTree = "<group>"; };
+		9E6EBA061BAB1993002E940B /* StackOverFlowService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackOverFlowService.m; sourceTree = "<group>"; };
+		9E8146921BA8821A00D82B8A /* BurgerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8146961BA8821A00D82B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8146971BA8821A00D82B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E8146991BA8821A00D82B8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E81469A1BA8821A00D82B8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E81469D1BA8821A00D82B8A /* BurgerMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BurgerMenu.xcdatamodel; sourceTree = "<group>"; };
+		9E81469F1BA8821A00D82B8A /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		9E8146A01BA8821A00D82B8A /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		9E8146A31BA8821A00D82B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E8146A51BA8821A00D82B8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E8146A81BA8821A00D82B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9E8146AE1BA8821A00D82B8A /* BurgerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8146B31BA8821A00D82B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8146B41BA8821A00D82B8A /* BurgerMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerMenuTests.m; sourceTree = "<group>"; };
+		9E8146C41BA887C800D82B8A /* MainMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuTableViewController.h; sourceTree = "<group>"; };
+		9E8146C51BA887C800D82B8A /* MainMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuTableViewController.m; sourceTree = "<group>"; };
+		9E8146C71BA887F500D82B8A /* QuestionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSearchViewController.h; sourceTree = "<group>"; };
+		9E8146C81BA887F500D82B8A /* QuestionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionSearchViewController.m; sourceTree = "<group>"; };
+		9E8146CA1BA8A4AA00D82B8A /* burger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burger.jpeg; sourceTree = "<group>"; };
+		9E8146CC1BA8F32A00D82B8A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9E8146CD1BA8F32A00D82B8A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E81468F1BA8821A00D82B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438ED71896C77917D324B0B /* libPods-BurgerMenu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8146AB1BA8821A00D82B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42DC9773F309290E688AF654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				210F4D044961435467FA025C /* libPods-BurgerMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94E4A5874EE7E8508B99D3D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A322A5A2A2EC89845AFA12 /* Pods-BurgerMenu.debug.xcconfig */,
+				05165D89DDFF1FB80AE954BB /* Pods-BurgerMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E8146891BA8821900D82B8A = {
+			isa = PBXGroup;
+			children = (
+				9E8146941BA8821A00D82B8A /* BurgerMenu */,
+				9E8146B11BA8821A00D82B8A /* BurgerMenuTests */,
+				9E8146931BA8821A00D82B8A /* Products */,
+				94E4A5874EE7E8508B99D3D3 /* Pods */,
+				42DC9773F309290E688AF654 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8146931BA8821A00D82B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8146921BA8821A00D82B8A /* BurgerMenu.app */,
+				9E8146AE1BA8821A00D82B8A /* BurgerMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8146941BA8821A00D82B8A /* BurgerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9E8146991BA8821A00D82B8A /* AppDelegate.h */,
+				9E81469A1BA8821A00D82B8A /* AppDelegate.m */,
+				9E8146C01BA8868D00D82B8A /* Controller */,
+				9E8146BF1BA8868700D82B8A /* View */,
+				9E8146BE1BA8868000D82B8A /* Model */,
+				9E8146A51BA8821A00D82B8A /* Images.xcassets */,
+				9E8146A71BA8821A00D82B8A /* LaunchScreen.xib */,
+				9E81469C1BA8821A00D82B8A /* BurgerMenu.xcdatamodeld */,
+				9E8146CA1BA8A4AA00D82B8A /* burger.jpeg */,
+				9E8146951BA8821A00D82B8A /* Supporting Files */,
+			);
+			path = BurgerMenu;
+			sourceTree = "<group>";
+		};
+		9E8146951BA8821A00D82B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E8146961BA8821A00D82B8A /* Info.plist */,
+				9E8146971BA8821A00D82B8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E8146B11BA8821A00D82B8A /* BurgerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8146B41BA8821A00D82B8A /* BurgerMenuTests.m */,
+				9E8146B21BA8821A00D82B8A /* Supporting Files */,
+			);
+			path = BurgerMenuTests;
+			sourceTree = "<group>";
+		};
+		9E8146B21BA8821A00D82B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E8146B31BA8821A00D82B8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E8146BE1BA8868000D82B8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E6EBA051BAB1993002E940B /* StackOverFlowService.h */,
+				9E6EBA061BAB1993002E940B /* StackOverFlowService.m */,
+				9E15DEDD1BA9DB39004CA991 /* Errors.h */,
+				9E15DEDE1BA9DB39004CA991 /* Errors.m */,
+				9E07A6731BCC4E0900D51406 /* Question.h */,
+				9E07A6741BCC4E0900D51406 /* Question.m */,
+				9E07A6761BCC4ED600D51406 /* User.h */,
+				9E07A6771BCC4ED600D51406 /* User.m */,
+				9E07A67F1BCC79F200D51406 /* QuestionJSONParser.h */,
+				9E07A6801BCC79F200D51406 /* QuestionJSONParser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9E8146BF1BA8868700D82B8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E8146A21BA8821A00D82B8A /* Main.storyboard */,
+				9E07A67C1BCC6C1600D51406 /* QuestionTableViewCell.h */,
+				9E07A67D1BCC6C1600D51406 /* QuestionTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9E8146C01BA8868D00D82B8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E81469F1BA8821A00D82B8A /* ContainerViewController.h */,
+				9E8146A01BA8821A00D82B8A /* ContainerViewController.m */,
+				9E8146C41BA887C800D82B8A /* MainMenuTableViewController.h */,
+				9E8146C51BA887C800D82B8A /* MainMenuTableViewController.m */,
+				9E8146C71BA887F500D82B8A /* QuestionSearchViewController.h */,
+				9E8146C81BA887F500D82B8A /* QuestionSearchViewController.m */,
+				9E8146CC1BA8F32A00D82B8A /* WebViewController.h */,
+				9E8146CD1BA8F32A00D82B8A /* WebViewController.m */,
+				9E07A6791BCC617900D51406 /* MyQuestionsViewController.h */,
+				9E07A67A1BCC617900D51406 /* MyQuestionsViewController.m */,
+				9E07A6821BCD8B9600D51406 /* MyProfileViewController.h */,
+				9E07A6831BCD8B9600D51406 /* MyProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8146911BA8821A00D82B8A /* BurgerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8146B81BA8821A00D82B8A /* Build configuration list for PBXNativeTarget "BurgerMenu" */;
+			buildPhases = (
+				24ADC5CFA71B69D2EBEE7E9E /* Check Pods Manifest.lock */,
+				9E81468E1BA8821A00D82B8A /* Sources */,
+				9E81468F1BA8821A00D82B8A /* Frameworks */,
+				9E8146901BA8821A00D82B8A /* Resources */,
+				A6596FAE1455C304B3DFD4BA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurgerMenu;
+			productName = BurgerMenu;
+			productReference = 9E8146921BA8821A00D82B8A /* BurgerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E8146AD1BA8821A00D82B8A /* BurgerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8146BB1BA8821A00D82B8A /* Build configuration list for PBXNativeTarget "BurgerMenuTests" */;
+			buildPhases = (
+				9E8146AA1BA8821A00D82B8A /* Sources */,
+				9E8146AB1BA8821A00D82B8A /* Frameworks */,
+				9E8146AC1BA8821A00D82B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8146B01BA8821A00D82B8A /* PBXTargetDependency */,
+			);
+			name = BurgerMenuTests;
+			productName = BurgerMenuTests;
+			productReference = 9E8146AE1BA8821A00D82B8A /* BurgerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E81468A1BA8821900D82B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cf;
+				TargetAttributes = {
+					9E8146911BA8821A00D82B8A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9E8146AD1BA8821A00D82B8A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9E8146911BA8821A00D82B8A;
+					};
+				};
+			};
+			buildConfigurationList = 9E81468D1BA8821900D82B8A /* Build configuration list for PBXProject "BurgerMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E8146891BA8821900D82B8A;
+			productRefGroup = 9E8146931BA8821A00D82B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8146911BA8821A00D82B8A /* BurgerMenu */,
+				9E8146AD1BA8821A00D82B8A /* BurgerMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E8146901BA8821A00D82B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8146A41BA8821A00D82B8A /* Main.storyboard in Resources */,
+				9E8146A91BA8821A00D82B8A /* LaunchScreen.xib in Resources */,
+				9E8146CB1BA8A4AA00D82B8A /* burger.jpeg in Resources */,
+				9E8146A61BA8821A00D82B8A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8146AC1BA8821A00D82B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24ADC5CFA71B69D2EBEE7E9E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6596FAE1455C304B3DFD4BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerMenu/Pods-BurgerMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E81468E1BA8821A00D82B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6EBA071BAB1993002E940B /* StackOverFlowService.m in Sources */,
+				9E15DEDF1BA9DB39004CA991 /* Errors.m in Sources */,
+				9E07A6811BCC79F200D51406 /* QuestionJSONParser.m in Sources */,
+				9E07A67B1BCC617900D51406 /* MyQuestionsViewController.m in Sources */,
+				9E8146C91BA887F500D82B8A /* QuestionSearchViewController.m in Sources */,
+				9E8146CE1BA8F32A00D82B8A /* WebViewController.m in Sources */,
+				9E81469B1BA8821A00D82B8A /* AppDelegate.m in Sources */,
+				9E07A6841BCD8B9600D51406 /* MyProfileViewController.m in Sources */,
+				9E8146981BA8821A00D82B8A /* main.m in Sources */,
+				9E07A67E1BCC6C1600D51406 /* QuestionTableViewCell.m in Sources */,
+				9E07A6781BCC4ED600D51406 /* User.m in Sources */,
+				9E8146A11BA8821A00D82B8A /* ContainerViewController.m in Sources */,
+				9E07A6751BCC4E0900D51406 /* Question.m in Sources */,
+				9E81469E1BA8821A00D82B8A /* BurgerMenu.xcdatamodeld in Sources */,
+				9E8146C61BA887C800D82B8A /* MainMenuTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8146AA1BA8821A00D82B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8146B51BA8821A00D82B8A /* BurgerMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E8146B01BA8821A00D82B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8146911BA8821A00D82B8A /* BurgerMenu */;
+			targetProxy = 9E8146AF1BA8821A00D82B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E8146A21BA8821A00D82B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8146A31BA8821A00D82B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E8146A71BA8821A00D82B8A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8146A81BA8821A00D82B8A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E8146B61BA8821A00D82B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E8146B71BA8821A00D82B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E8146B91BA8821A00D82B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A322A5A2A2EC89845AFA12 /* Pods-BurgerMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BurgerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E8146BA1BA8821A00D82B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05165D89DDFF1FB80AE954BB /* Pods-BurgerMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BurgerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E8146BC1BA8821A00D82B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BurgerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerMenu.app/BurgerMenu";
+			};
+			name = Debug;
+		};
+		9E8146BD1BA8821A00D82B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BurgerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerMenu.app/BurgerMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E81468D1BA8821900D82B8A /* Build configuration list for PBXProject "BurgerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8146B61BA8821A00D82B8A /* Debug */,
+				9E8146B71BA8821A00D82B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8146B81BA8821A00D82B8A /* Build configuration list for PBXNativeTarget "BurgerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8146B91BA8821A00D82B8A /* Debug */,
+				9E8146BA1BA8821A00D82B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8146BB1BA8821A00D82B8A /* Build configuration list for PBXNativeTarget "BurgerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8146BC1BA8821A00D82B8A /* Debug */,
+				9E8146BD1BA8821A00D82B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E81469C1BA8821A00D82B8A /* BurgerMenu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E81469D1BA8821A00D82B8A /* BurgerMenu.xcdatamodel */,
+			);
+			currentVersion = 9E81469D1BA8821A00D82B8A /* BurgerMenu.xcdatamodel */;
+			path = BurgerMenu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E81468A1BA8821900D82B8A /* Project object */;
+}
